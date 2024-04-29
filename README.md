@@ -2,5 +2,5 @@
 
 ### Introduction
 
-The repo is a demonstration of an open-source LLM (Gemma-7B-instruct) powered RAG implementation. The work also compares different RAG variations (Naive vs Advanced).
+The repo is a demonstration of implemeting RAG paradign using an open-source LLM (Gemma-7B-instruct). Gemma is  Google's open source lightweight LLM model. The work also compares results or responses based on different approaches and RAG variations (advanced vs naive).
 
