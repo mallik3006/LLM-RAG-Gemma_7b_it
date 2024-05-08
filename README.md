@@ -16,3 +16,13 @@ The repo is a demonstration of implementing RAG paradigm using an open-source LL
 * Run-time environment - ```Google Colab T4 GPU```
 
 
+### Steps
+
+* Load Documents
+* Chunk text 
+* Create Embeddings using model - ```BAAI/bge-large-en-v1.5```
+* Index and load to Vector Store - ```Pinecone```
+* Load Quantized LLM model - ```Gemma-7b-it```
+* Build Question Answering Chain using ```LangChain```
+* RAG w/ Base Retriever -  Similarity search with pre-defined ```Threshold``` and ```Top-k```
+* RAG w/ pre-retrieval (metadata filtering) and Re-ranker - ```Cohere```
